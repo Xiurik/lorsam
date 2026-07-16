@@ -22,7 +22,7 @@ export function ClientesPage(): React.JSX.Element {
       <Seo meta={SEO_BY_ROUTE[ERoute.Clientes]} />
       <PageHeader
         eyebrow="Nuestros Clientes"
-        title="Proyectos de misión crítica en México"
+        title="Proyectos de Misión Crítica en México"
         lead={clients.intro}
         image={clientesImage}
       />

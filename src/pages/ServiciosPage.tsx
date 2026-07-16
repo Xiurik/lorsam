@@ -24,7 +24,7 @@ export function ServiciosPage(): React.JSX.Element {
       <Seo meta={SEO_BY_ROUTE[ERoute.Servicios]} />
       <PageHeader
         eyebrow="Servicios"
-        title="Ingeniería, instalación y mantenimiento HVAC/R"
+        title="Ingeniería, Instalación y Mantenimiento HVAC/R"
         lead="Cubrimos todo el ciclo de vida de tus sistemas de climatización y refrigeración con técnicos certificados y estricto cumplimiento de presupuesto."
         image={serviciosImage}
       />
