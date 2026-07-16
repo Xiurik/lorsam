@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useEffect } from 'react';
 import { lorsamData } from '../../data/lorsam';
 import { SPLASH_DURATION_MS } from '../../lib/constants';
 
@@ -26,6 +27,14 @@ const letterVariants = {
  * @param onSkip Handler to dismiss the splash early.
  */
 export function SplashScreen({ onSkip }: ISplashScreenProps): React.JSX.Element {
+  useEffect(() => {
+    const { overflow } = document.body.style;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = overflow;
+    };
+  }, []);
+
   return (
     <motion.div
       role="dialog"

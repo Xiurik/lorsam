@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import type { INavLink } from '../../types';
 import { cn } from '../../lib/cn';
 import { Logo } from '../ui/Logo';
-import { CTAButton } from '../ui/CTAButton';
 import { ERoute } from '../../types';
 
 interface IMobileMenuProps {
@@ -32,13 +32,13 @@ export function MobileMenu({ links, onClose }: IMobileMenuProps): React.JSX.Elem
     };
   }, [onClose]);
 
-  return (
+  return createPortal(
     <motion.div
       id="mobile-menu"
-      className="fixed inset-0 z-50 bg-white md:hidden"
-      initial={{ opacity: 0, x: '100%' }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: '100%' }}
+      className="fixed inset-0 z-50 bg-white shadow-2xl md:hidden"
+      initial={{ x: '100%' }}
+      animate={{ x: 0 }}
+      exit={{ x: '100%' }}
       transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
     >
       <div className="flex items-center justify-between border-b border-fog px-4 py-4">
@@ -70,10 +70,11 @@ export function MobileMenu({ links, onClose }: IMobileMenuProps): React.JSX.Elem
             {link.label}
           </NavLink>
         ))}
-        <CTAButton to={ERoute.Contacto} variant="primary" size="lg" className="mt-4 w-full">
+        {/* <CTAButton to={ERoute.Contacto} variant="primary" size="lg" className="mt-4 w-full">
           Cotizar proyecto
-        </CTAButton>
+        </CTAButton> */}
       </nav>
-    </motion.div>
+    </motion.div>,
+    document.body,
   );
 }
