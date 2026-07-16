@@ -21,12 +21,7 @@ export function HistoriaPage(): React.JSX.Element {
   return (
     <>
       <Seo meta={SEO_BY_ROUTE[ERoute.Historia]} />
-      <PageHeader
-        eyebrow="Nuestra Historia"
-        title={history.headline}
-        lead={history.intro[0]}
-        image={historiaImage}
-      />
+      <PageHeader eyebrow="Nuestra Historia" title={history.headline} lead={history.intro[0]} image={historiaImage} />
 
       <Section tone="white" ariaLabel="Reseña histórica">
         <div className="mx-auto max-w-3xl space-y-5 text-lg leading-relaxed text-graphite">
@@ -39,7 +34,7 @@ export function HistoriaPage(): React.JSX.Element {
       <Section tone="mist" ariaLabel="Línea de tiempo">
         <SectionHeading
           eyebrow="Trayectoria"
-          title="Cuatro décadas de evolución"
+          title="Cuatro Décadas de Evolución"
           lead="De un taller local a líderes regionales en climatización y refrigeración."
         />
 
@@ -68,7 +63,7 @@ export function HistoriaPage(): React.JSX.Element {
       <Section tone="white" ariaLabel="Evolución técnica">
         <SectionHeading
           eyebrow="Nuestra Evolución Técnica"
-          title="Dominio de sistemas críticos"
+          title="Dominio de Sistemas Críticos"
           lead="Con los años expandimos nuestra especialización para dominar la ingeniería, instalación y mantenimiento de sistemas cada vez más exigentes."
         />
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

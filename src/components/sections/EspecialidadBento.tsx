@@ -26,7 +26,7 @@ export function EspecialidadBento(): React.JSX.Element {
     <Section id="especialidad" tone="mist" ariaLabel="Nuestra especialidad">
       <SectionHeading
         eyebrow="Nuestra Especialidad"
-        title="Ingeniería VRF/TVR a gran escala"
+        title="Ingeniería VRF/TVR a Gran Escala"
         lead="Alta capacidad técnica en el cálculo, ingeniería e instalación de sistemas de volumen de refrigerante variable, apoyados en software de última generación."
       />
 
@@ -54,35 +54,21 @@ export function EspecialidadBento(): React.JSX.Element {
           </article>
 
           {/* Capability tiles */}
-          {specialty.catalog.map((item, i) => {
-            const isFlagship = i === 0;
-            return (
-              <article
-                key={item.title}
-                className={cn(
-                  'flex flex-col justify-between rounded-2xl border p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg',
-                  SPAN_BY_INDEX[i],
-                  isFlagship
-                    ? 'border-transparent bg-brand-red-500 text-white'
-                    : 'border-fog bg-white text-graphite hover:border-brand-blue-200',
-                )}
-              >
-                <Icon
-                  name={item.icon}
-                  className={cn('h-8 w-8', isFlagship ? 'text-white' : 'text-brand-blue-600')}
-                  strokeWidth={1.75}
-                />
-                <div className="mt-4">
-                  <h3 className={cn('text-base font-semibold', isFlagship ? 'text-white' : 'text-ink')}>
-                    {item.title}
-                  </h3>
-                  <p className={cn('mt-1 text-sm leading-relaxed', isFlagship ? 'text-white/90' : 'text-steel')}>
-                    {item.detail}
-                  </p>
-                </div>
-              </article>
-            );
-          })}
+          {specialty.catalog.map((item, i) => (
+            <article
+              key={item.title}
+              className={cn(
+                'flex flex-col justify-between rounded-2xl border border-fog bg-white p-6 text-graphite transition-all duration-300 hover:-translate-y-1 hover:border-brand-blue-200 hover:shadow-lg',
+                SPAN_BY_INDEX[i],
+              )}
+            >
+              <Icon name={item.icon} className="h-8 w-8 text-brand-blue-600" strokeWidth={1.75} />
+              <div className="mt-4">
+                <h3 className="text-base font-semibold text-ink">{item.title}</h3>
+                <p className="mt-1 text-sm leading-relaxed text-steel">{item.detail}</p>
+              </div>
+            </article>
+          ))}
 
           {/* National-reach stat tile */}
           <article className="flex flex-col justify-center rounded-2xl bg-brand-blue-700 p-6 text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">

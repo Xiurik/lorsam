@@ -14,7 +14,7 @@ export function ValoresCards(): React.JSX.Element {
     <Section id="valores" tone="white" ariaLabel="Nuestros valores">
       <SectionHeading
         eyebrow="Nuestros Valores"
-        title="Principios que sostienen cada proyecto"
+        title="Principios Que Sostienen Cada Proyecto"
         lead="La cultura técnica y ética que garantiza certidumbre a nuestros clientes."
       />
 

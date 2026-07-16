@@ -18,7 +18,7 @@ export function ClientesPreview(): React.JSX.Element {
     <Section id="clientes" tone="white" ariaLabel="Sectores y clientes">
       <SectionHeading
         eyebrow="Nuestros Clientes"
-        title="Confianza en sectores de misión crítica"
+        title="Confianza en Sectores de Misión Crítica"
         lead={clients.intro}
       />
 

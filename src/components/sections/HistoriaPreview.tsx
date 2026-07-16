@@ -19,7 +19,7 @@ export function HistoriaPreview(): React.JSX.Element {
     <Section id="historia" tone="blue" ariaLabel="Nuestra historia">
       <div className="grid items-center gap-12 lg:grid-cols-2">
         <Reveal>
-          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-brand-red-600">Nuestra Historia</p>
+          <p className="mb-3 font-semibold uppercase tracking-[0.18em] text-brand-red-600">Nuestra Historia</p>
           <h2 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">{history.headline}</h2>
           <p className="mt-5 text-lg leading-relaxed text-steel">{history.intro[0]}</p>
 
@@ -28,8 +28,8 @@ export function HistoriaPreview(): React.JSX.Element {
               <li key={event.name} className="flex gap-4">
                 <span className="mt-1 inline-flex h-3 w-3 shrink-0 rounded-full bg-brand-red-500 ring-4 ring-brand-red-100" />
                 <div>
-                  <div className="text-sm font-bold text-brand-blue-700">{event.year || event.stage}</div>
-                  <div className="text-sm text-graphite">{event.name}</div>
+                  <div className="text-md font-bold text-brand-blue-700">{event.year || event.stage}</div>
+                  <div className="text-md text-graphite">{event.name}</div>
                 </div>
               </li>
             ))}

@@ -6,7 +6,6 @@ import { NAV_LINKS } from '../../lib/constants';
 import { ERoute } from '../../types';
 import { cn } from '../../lib/cn';
 import { Logo } from '../ui/Logo';
-import { CTAButton } from '../ui/CTAButton';
 import { MobileMenu } from './MobileMenu';
 
 /**

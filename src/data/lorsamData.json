@@ -38,7 +38,7 @@
     }
   ],
   "history": {
-    "headline": "Más de 40 años de evolución y excelencia térmica",
+    "headline": "Más de 40 Años de Evolución y Excelencia Térmica",
     "intro": [
       "Nuestro recorrido comenzó en 1982 con pasos firmes bajo el nombre de Climas y Refrigeración del Valle. A lo largo de las décadas, nuestra vocación por el servicio y la adaptación a las nuevas tecnologías nos impulsaron a evolucionar continuamente.",
       "Transitamos por etapas de gran crecimiento y transformación estructural —pasando por identidades como Refri-Valle y Servicios Generales y Aire Acondicionado— hasta consolidarnos estructural y corporativamente en el año 2025 como Multi Servicios y Climas Lorsam SA de CV.",
@@ -138,13 +138,13 @@
     "Sistemas de ductos (incluyendo espiroductos), difusores, rejillas y compuertas."
   ],
   "specialty": {
-    "headline": "Ingeniería, diseño e implementación a gran escala",
+    "headline": "Ingeniería, Diseño e Implementación a Gran Escala",
     "description": "Nos distinguimos por nuestra alta capacidad técnica en el cálculo, ingeniería e instalación de sistemas de volumen de refrigerante variable (VRF y TVR). Apoyados en software especializado de última generación, diseñamos proyectos precisos y fabricamos sistemas de ductería a la medida, garantizando un flujo de aire óptimo y la máxima eficiencia energética.",
     "nationalBacking": "Gracias a nuestra capacidad logística y operativa, hemos instalado con éxito más de 500 unidades de estos sistemas en distintos estados de la República Mexicana, cumpliendo con los más altos estándares de calidad industrial y comercial.",
     "catalog": [
       {
-        "title": "Volumen Variable (Alta Eficiencia)",
-        "detail": "Sistemas VRF y TVR.",
+        "title": "Volumen Variable (Sistemas VRF y TVR.)",
+        "detail": "Soluciones de climatización centralizada que permiten controlar la temperatura de cada zona de forma independiente. Son ideales para grandes edificaciones, garantizando un confort total con el máximo ahorro energético.",
         "icon": "Fan"
       },
       {
@@ -153,18 +153,18 @@
         "icon": "AirVent"
       },
       {
-        "title": "Sistemas Aplicados (Agua Helada)",
-        "detail": "Chillers y Fan & Coils.",
+        "title": "Sistemas Aplicados (Chillers y Fan & Coils.)",
+        "detail": "Tecnología robusta diseñada para el control térmico de instalaciones a gran escala, como corporativos, hospitales o plantas industriales.",
         "icon": "Droplets"
       },
       {
-        "title": "Calidad del Aire y Flujo",
-        "detail": "Ventilación, inyección y extracción industrial.",
+        "title": "Sistemas de ventilación, inyección y extracción industrial",
+        "detail": "Ingeniería enfocada en el diseño de redes óptimas para eliminar contaminantes, controlar temperaturas extremas y cumplir con las normas de salud y seguridad operativa.",
         "icon": "Wind"
       },
       {
-        "title": "Refrigeración Especializada",
-        "detail": "Cuartos fríos: cámaras de conservación y de congelación.",
+        "title": "Refrigeración Especializada (Cuartos Fríos, Cámaras de Conservación y de Congelación)",
+        "detail": "Proyectos integrales para la cadena de frío con un control de temperatura preciso y confiable. Diseñados a la medida para garantizar la perfecta preservación de productos alimenticios, médicos o logísticos.",
         "icon": "Snowflake"
       }
     ]

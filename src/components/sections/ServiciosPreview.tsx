@@ -13,7 +13,7 @@ export function ServiciosPreview(): React.JSX.Element {
     <Section id="servicios" tone="mist" ariaLabel="Nuestros servicios">
       <SectionHeading
         eyebrow="Nuestros Servicios"
-        title="Cobertura integral del ciclo de vida"
+        title="Cobertura Integral del Ciclo de Vida"
         lead="Desde la asesoría y la ingeniería hasta la instalación, el mantenimiento y las pólizas: un solo proveedor para toda tu operación térmica."
       />
 

@@ -23,8 +23,8 @@ export function ContactoCTA(): React.JSX.Element {
       />
 
       <Container className="py-16 text-center sm:py-20">
-        <h2 className="text-balance font-display text-3xl font-extrabold text-white sm:text-4xl">
-          ¿Listo para optimizar tu climatización?
+        <h2 className="text-balance font-display text-2xl font-extrabold text-white sm:text-4xl">
+          ¿ Listo Para Optimizar Tu Climatización ?
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-pretty text-lg text-brand-blue-100">
           Solicita asesoría técnica y una cotización sin compromiso. Respondemos rápido por teléfono o WhatsApp.

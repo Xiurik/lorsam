@@ -29,7 +29,7 @@ export function ContactoPage(): React.JSX.Element {
       <Seo meta={SEO_BY_ROUTE[ERoute.Contacto]} />
       <PageHeader
         eyebrow="Contacto"
-        title="Hablemos de tu proyecto"
+        title="Hablemos de Tu Proyecto"
         lead="Estamos listos para brindarte asesoría técnica y una cotización sin compromiso. Elige el canal que prefieras."
         image={contactoImage}
       />
@@ -42,7 +42,7 @@ export function ContactoPage(): React.JSX.Element {
               <span className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-brand-blue-50 text-brand-blue-700">
                 <Phone className="h-6 w-6" aria-hidden focusable={false} />
               </span>
-              <h2 className="text-lg font-bold text-ink">Teléfonos de oficina</h2>
+              <h2 className="text-lg font-bold text-ink">Teléfonos de Oficina</h2>
               <ul className="mt-4 space-y-2">
                 {contact.office.map((phone) => (
                   <li key={phone}>

@@ -32,7 +32,7 @@ export function ServiciosPage(): React.JSX.Element {
       <Section tone="white" ariaLabel="Catálogo de servicios">
         <SectionHeading
           eyebrow="Qué hacemos"
-          title="Seis servicios, un solo proveedor"
+          title="Seis Servicios, Un Solo Proveedor"
           lead="De la asesoría inicial a las pólizas de mantenimiento integral."
         />
         <div className="mt-14">
@@ -46,7 +46,7 @@ export function ServiciosPage(): React.JSX.Element {
             <SectionHeading
               align="left"
               eyebrow="Especialización y Cobertura Técnica"
-              title="Proyectos de cualquier magnitud y complejidad"
+              title="Proyectos de Cualquier Magnitud y Complejidad"
               lead="Somos expertos en el cálculo, ingeniería, instalación y mantenimiento de una amplia variedad de equipos."
             />
             <ul className="mt-8 space-y-3">
